@@ -17,7 +17,7 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
-        String jsonSchema = generateJsonSchemaFromSwaggerSpec("/Users/emil/Desktop/petstore.json", "Pet");
+        String jsonSchema = generateJsonSchemaFromSwaggerSpec("sample/petstore.json", "Pet");
         System.out.println(jsonSchema);
     }
 
